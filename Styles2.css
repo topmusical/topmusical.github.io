@@ -1,0 +1,67 @@
+/* General styles */
+body {
+    background-color: #f0f0f0; /* Color de fondo de la página */
+    font-family: Arial, sans-serif; /* Tipo de letra general */
+    color: #333; /* Color de texto general */
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo para el título principal */
+#main-title {
+    color: #1e90ff; /* Color del texto del título principal */
+    text-align: center;
+    padding: 20px;
+    text-shadow: 2px 2px 4px #888888; /* Sombra del texto */
+}
+
+/* Estilo para los títulos de sección */
+.section-title {
+    color: #ff4500; /* Color del texto de los títulos de sección */
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+/* Estilo para párrafos grandes */
+.text-large {
+    font-size: 18px; /* Tamaño de texto más grande para los párrafos */
+    line-height: 1.6;
+    text-align: justify; /* Alineación justificada del texto */
+    color: #333;
+}
+
+/* Estilo para la tabla */
+table {
+    width: 100%;
+    border-collapse: collapse; /* Elimina el espacio entre bordes de celdas */
+    margin: 20px 0;
+}
+
+th, td {
+    border: 1px solid #ddd; /* Color del borde */
+    padding: 8px; /* Espaciado interno de celdas */
+    text-align: left; /* Alineación del texto en las celdas */
+}
+
+th {
+    background-color: #f2f2f2; /* Color de fondo de las celdas de encabezado */
+    font-weight: bold; /* Negrita en las celdas de encabezado */
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9; /* Color de fondo alternante para filas */
+}
+
+tr:hover {
+    background-color: #f1f1f1; /* Color de fondo al pasar el ratón sobre una fila */
+}
+
+/* Estilo para los enlaces */
+a {
+    color: #1e90ff; /* Color del texto del enlace */
+    text-decoration: none; /* Quitar el subrayado */
+}
+
+a:hover {
+    text-decoration: underline; /* Subrayar al pasar el ratón */
+}

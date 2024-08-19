@@ -1,0 +1,21 @@
+body {
+    font-family: 'Times New Roman', serif; 
+}
+
+/* Estilos para la tabla */
+table {
+    background-color: #ffffff; /* Blanco */
+}
+
+th {
+    background-color: #ff66b2; /* Rosa oscuro */
+    color: #ffffff; /* Blanco para el texto de los encabezados */
+}
+
+tr:nth-child(even) {
+    background-color: #ffe6f2; /* Rosa muy claro */
+}
+
+tr:hover {
+    background-color: #ffb3e6; /* Rosa claro */
+}

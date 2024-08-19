@@ -1,0 +1,20 @@
+/* Color de fondo de la tabla */
+table {
+    background-color: #ffffff; /* Blanco */
+}
+
+/* Color de fondo de las celdas de encabezado */
+th {
+    background-color: #ff66b2; /* Rosa oscuro */
+    color: #ffffff; /* Blanco para el texto de los encabezados */
+}
+
+/* Color de fondo alternante para filas pares */
+tr:nth-child(even) {
+    background-color: #ffe6f2; /* Rosa muy claro */
+}
+
+/* Color de fondo al pasar el ratón sobre una fila */
+tr:hover {
+    background-color: #ffb3e6; /* Rosa claro */
+}
